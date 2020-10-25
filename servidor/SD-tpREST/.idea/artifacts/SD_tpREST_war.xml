@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SD-tpREST:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SD-tpREST</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SD-tpREST.war">
+      <element id="artifact" artifact-name="SD-tpREST:war exploded" />
+    </root>
+  </artifact>
+</component>
